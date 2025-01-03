@@ -14,7 +14,7 @@ To install this package, use the Julia package manager. In the Julia REPL, run:
 
 ```julia
 using Pkg
-Pkg.add("EGL")
+Pkg.add(url="https://github.com/emiwar/EGL.jl")
 ```
 
 ## Usage

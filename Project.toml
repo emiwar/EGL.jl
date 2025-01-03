@@ -1,8 +1,9 @@
 name = "EGL"
 uuid = "2ce7196e-cdfc-4734-9377-d30ae2dad229"
 authors = ["Emil Wärnberg <dev@emilwarnberg.se>"]
-version = "0.1.0"
 description = "A Julia wrapper for the EGL library."
+version = "0.1.0"
 
 [deps]
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
