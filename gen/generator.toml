@@ -1,0 +1,8 @@
+[general]
+library_name = "libEGL"
+output_file_path = "src/generated/EGL_api.jl"
+module_name = "LibEGL"
+export_symbol_prefixes = ["egl", "EGL_"]  # Common prefixes for EGL functions and constants
+
+[clang]
+headers_as_sources = true  # Treat the provided header as a source file
